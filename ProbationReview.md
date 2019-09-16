@@ -1,27 +1,6 @@
 # Probation Review - Hank Huang
-
-## To understand promotion system, product integration flow, DB schema and relationship
-* APS Domain Training by Eva
-* PMS Domain Training by Eva
-* Trace code -> not yet
-
-## To understand IOWB and its modules, DB schema and relationship
-### iOWB system
-* KYC
-  * <a href="https://lineageshow.github.io/KYC.html">ER Model</a>
-* Messaging
-  * Template Management
-* Balance (Acturl Balance)
-  * Actual Balance => AccountBalance.AccountingBalance
-  * Available Total Balance => AccountBalance.AvailableBalance
-  * Churn Balance => AccountChurnBalance.ChurnBalance
-  * Generated Balance <=> Member site->Member Balance
-* Cash Log 
-  * from GeneralLedger and 
-* Chrun Log 
-  * 
-
-## My Tasks
+  
+## Tasks
 * CC1-356 - [BAU][Risk] Display SBK Max Bet Percentage Value in iOWB
   * QT-12976 - [CSB-60][iOWB] SBK Statement : The old data all displayed as 0%
   * QT-12977 - [CC1-356][iOWB][Function] MaxBet % display incorrect
@@ -36,7 +15,30 @@
 * CC1-958 - [BAU][Risk] KYC Doc Status change shall be synced between Profile Verification Widget and iOWB
   * PIM-10447 - [CC1-958] Widget status no change when updated the Doc status under Check Doc Link
 
-## To have an overiew of 188 Asia all systems, JIRA flow, and Git usage
+## System Domain
+### APS & PMS
+* APS Domain Training by Eva
+* PMS Domain Training by Eva
+* Trace code -> not yet
+
+### iOWB
+* KYC
+  * <a href="https://lineageshow.github.io/KYC.html">ER Model</a>
+* Messaging
+  * Template Management
+* Balance (Acturl Balance)
+  * Actual Balance => AccountBalance.AccountingBalance
+  * Available Total Balance => AccountBalance.AvailableBalance
+  * Churn Balance => AccountChurnBalance.ChurnBalance
+  * Generated Balance <=> Member site->Member Balance
+* Cash Log 
+  * from GeneralLedger and 
+* Chrun Log 
+  * from xxx
+
+### To have an overiew of 188 Asia all systems
+<a href="https://lineageshow.github.io/188AsiaOverviewAllSystem.html">Overview of 188 Asia</a>
+###  JIRA flow, and Git usage
 about ticket type
 1. CC1
 2. QT
